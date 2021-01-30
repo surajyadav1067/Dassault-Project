@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>Register User</title>
+
+</head>
+<body>
+<div class = "container" id="main">
+ 
+<div class="register-div"><h2>Registration</h2></div>
+  <form class = "container-form">
+     <h4 class="h-text">Please enter below information to Register!</h4>
+    
+    <table class="register-table">
+    <tbody>
+      <tr>
+        <td> <label class=required><b>Name</b></label></td>
+         <td><input type="text" placeholder="Enter Name" id="name" required  >
+    </td>
+       </tr>
+          
+      <tr>
+        <td><label class=required><b>Email</b></label></td>
+        <td><input type="text" placeholder ="Enter Enail" id="email" required >
+   
+          </td>
+       </tr>   
+      <tr>
+        <td><label><b>Contact Number</b></label></td>
+    <td>
+    <input type="tel" placeholder ="Enter Contact Number" id="number"  pattern="[1-9]{1}[0-9]{9}">
+   
+      </td>
+        </tr>
+          
+      <tr>
+        <td><label ><b>Date of Birth</b></label></td>
+        <td>
+          <input type="date" id="dob" >
+        </td>
+         </tr>
+          <tr>
+            <td><label class=required><b>Password</b></label></td>
+      <td>
+           
+    <input type="password" placeholder = "Enter password" id="pass" required >
+   
+        </td>
+          </tr>
+          <tr> 
+           <td><label class=required><b>Confirm Password</b></label></td>
+      <td>
+            <input type="password" placeholder="Re-enter Password" id="conpass" required >
+      </td>
+      </tr>
+          
+     </tbody>  
+    </table>
+    <br><br>
+    <div class="buttons">
+        <button type="submit" id="submit-btn" class="registerbtn">Register</button>
+        <button type="button" id="cancel-btn" class="cancelbtn">Cancel</button>
+     </div>
+  </form>
+  
+  <script src="script.js"></script>
+
+</div>
+</body>
+</html>

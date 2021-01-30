@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body>
+<div id="login-div" class="container">
+    <div class="header-div">
+        <h1>LOGIN</h1>
+    </div>
+    <div class="body-div">
+        <div class="title-div">Welcome to Pill Reminder!</div>
+        <div class="form-div">
+            <form id="login-form">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <label for="login-email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="login-email" class="input-text" placeholder="yourmail@domain.com"
+                                   required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="login-password">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="login-password" class="input-text"
+                                   placeholder="Enter your password" required/>
+                        </td>
+                    </tr>
+                    <tr class="button-row">
+                        <td colspan="2">
+                            <input type="submit" id="login-btn" class="input-button green-btn" value="Login">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div class="link-div">
+            <a href="ForgotPasswordPage.html">Forgot Password?</a>
+            <a href="RegistrationPage.html">New User?</a>
+        </div>
+    </div>
+</div>
+<script src="LoginPage.js"></script>
+</body>
+</html>

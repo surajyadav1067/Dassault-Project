@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User profile page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadData()">
+  <div class="container">
+    <div class="top">
+      <img class=logo src="logo.png" alt="logo">
+      <button class="logout-btn">Log Out</button>
+    </div>
+    <div class="main">
+      <div class="user-data">
+        <div class="greet-user">
+          <img class="user-image" src="user.png" >
+          <h3>WelCome Akash!!</h3>
+        </div>
+        <table>
+          <tr>
+            <td>Name</td>
+            <td class="data" ><input type="text" id="uname"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td class="data" ><input type="text" id="uemail"></td>
+          </tr>
+          <tr>
+            <td>Contact Number</td>
+            <td class="data" ><input type="text" id="unumber"></td>
+          </tr>
+          <tr>
+            <td>Blood Group</td>
+            <td class="data" ><input type="text" id="ublood"></td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td class="data" ><input type="text" id="udob"></td>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td class="data" ><input type="text" id="uweight"></td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td class="data" ><input type="text" id="uheight"></td>
+          </tr>
+        </table>
+      </div>
+      <div class=" dependent-area" id="dep-area">
+
+        <div class='btns'>
+        <div><button class="dep-btn add-dependent" id="add-btn" onclick="funAdd()">Add Dependent</button> </div>
+        
+        <div><button class="dep-btn view-dependent" id="view-btn" onclick="funView()">View Dependent</button></div>
+
+      </div>
+        <!-- <table>
+          <tr>
+            <td>Relationship</td>
+            <td ><select class="relation">
+              <option value="mother">Mother</option>
+              <option value="father">Father</option>
+              <option value="sister">Sister</option>
+              <option value="brother">Brother</option>
+              <option value="spouse">Spouse</option>
+              <option value="mother-in-law">Mother-in-law</option>
+              <option value="father-in-law">Father-in-law</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td ><input type="text"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td class="data">A.gmail.com</td>
+          </tr>
+          <tr>
+            <td>Contact Number</td>
+            <td class="data">420</td>
+          </tr>
+          <tr>
+            <td>Blood Group</td>
+            <td class="data">O+ve</td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td class="data">29/07/88</td>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td class="data">1.8m</td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td class="data">40kg</td>
+          </tr>
+        </table> -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

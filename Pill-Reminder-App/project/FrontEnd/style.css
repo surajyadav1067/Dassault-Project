@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.header-div {
+    width: auto;
+    background-color: #ccc;
+    font-family: "Poppins ExtraBold", sans-serif;
+    display: inline-block;
+}
+
+.body-div {
+    background-color: #ddd;
+    font-family: "Poppins Medium", sans-serif;
+    display: inline-block;
+}
+
+.title-div {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.input-text {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-row {
+}
+
+.input-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.link-div {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.required:after {
+    content: "*";
+    color: #db4437;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+table {
+    table-layout: fixed;
+}
+
+label {
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.green-btn {
+    background-color: #0f9d58;
+    color: white;
+}
+
+.red-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+#colours {
+    color: #4285F4;
+    background-color: #DB4437;
+    text-decoration-color: #F4B400;
+    border-color: #0F9D58;
+}

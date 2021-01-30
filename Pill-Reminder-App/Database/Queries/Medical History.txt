@@ -1,0 +1,12 @@
+Create Table MedicalHistory(
+SrNo int Not Null auto_increment,
+Illness varchar(100) NOT NULL,
+Doctor varchar(100) NOT NULL,
+Medicine varchar(100) NOT NULL,
+StartDate date  NOT NULL,
+EndDate date  NOT NULL,
+Dosage varchar(50) NOT NULL,
+user int references userinfo(UserName),
+Dependent int references Dependents(DepnName),
+primary key (SrNo)
+);

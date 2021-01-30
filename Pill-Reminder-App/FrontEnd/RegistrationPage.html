@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+    <title>Registration Page</title>
+</head>
+<body>
+<div id="registration-div" class="container">
+    <div class="header-div">
+        <h1>REGISTRATION</h1>
+    </div>
+    <div class="body-div">
+        <div class="title-div">Please enter your details to register</div>
+        <div class="form-div">
+            <form id="registration-form">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <label for="registration-name" class="required">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="registration-name" class="input-text" placeholder="Ashok Kumar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="registration-email" class="required">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="registration-email" class="input-text"
+                                   placeholder="yourmail@domain.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="registration-contact">Contact Number:</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="registration-contact" class="input-text" pattern="[1-9]{1}[0-9]{9}"
+                                   placeholder="9876543210"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="registration-country">Country:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="registration-country" class="input-text"
+                                   placeholder="Eg. India"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="registration-dob">Date of Birth:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="registration-dob" class="input-text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="registration-pwd" class="required">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="registration-pwd" class="input-text"
+                                   placeholder="Enter a password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="registration-cnf-pwd" class="required">Confirm Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="registration-cnf-pwd" class="input-text"
+                                   placeholder="Re-enter password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" id="registration-submit-btn" class="input-button green-btn"
+                                   value="Register"/>
+                        </td>
+                        <td>
+                            <input type="button" id="registration-cancel-btn" class="input-button red-btn"
+                                   value="Cancel"/>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div class="link-div">
+            <a href="LoginPage.html">Already a user?</a>
+        </div>
+    </div>
+</div>
+<script src="RegistrationPage.js"></script>
+</body>
+</html>

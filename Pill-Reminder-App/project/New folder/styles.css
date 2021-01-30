@@ -1,0 +1,113 @@
+/* body{
+  padding: 3px;
+ 
+  height: auto;
+  width: auto;
+} */
+.container{
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid black;
+}
+.logo {
+ width: 7%;
+ height: 7%;
+ padding: 5px;
+}
+
+.top{
+  background-color: darkgray;
+}
+.logout-btn{
+  float: right;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 1%;
+  margin-right :1%;
+  height: auto;
+  width: auto;
+  background-color: rgb(162, 229, 238);
+}
+/* .side{
+  border: 2px solid black;
+  width : 10%;
+  margin-right: 2%;
+}
+.side a{
+  text-align: center;
+}
+li{
+  list-style: none;
+} */
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+.sidebar a{
+  display: block;
+  color: black;
+  padding: 20%;
+  text-decoration: none;
+  border: 2px solid black;
+}
+.content{
+  display: flex;
+  padding: 5px;
+}
+.main{
+  padding: 5px;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.greet-user{
+  padding: 2px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  height: 20%;
+  display: flex;
+}
+.user-image{
+  width: 20%;
+  height: 80%; 
+  margin-right: 20%;
+}
+.medical-history{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.user-table{
+  text-align: center;
+}
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkgrey;
+}
+.dependent-info{
+margin-left: 20px;
+}
+.dependent-table{
+  text-align: center;
+}
+#submit-btn{
+  font-size: large;
+  padding: 32px 16px;
+  background-color: slateblue;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  border-radius: 8px;
+}
+#medical-history{
+  text-align: center;
+}

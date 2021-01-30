@@ -1,0 +1,80 @@
+.container{
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid black;
+}
+.logo {
+ width: 7%;
+ height: 7%;
+ padding: 5px;
+}
+
+.top{
+  background-color: rgb(167, 161, 161);
+}
+.logout-btn{
+  float: right;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 1%;
+  margin-right :1%;
+  height: auto;
+  width: auto;
+  background-color: rgb(162, 229, 238);
+}
+.main{
+  display: flex;
+  border: 2px solid black;
+  font-size: 25px;
+  margin: 1%;
+}
+
+.greet-user{
+  padding: 5px;
+  text-align: center;
+  height: 15%;
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+td{
+  padding: 3px,10 px;
+  /* width: 200px; */
+}
+input{
+  height: 30px;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.data { 
+  /* border:1px solid black;  */
+  /* padding:3px ; */
+
+}
+.user-data{
+  width: 40%;
+  margin-left: 10%;
+  border-right: 2px solid black;
+}
+.dependent-area{
+  
+}
+.relation{
+  font-size: 20px;
+}
+.btns{
+}
+.dep-btn{
+  padding: 32px,48px;
+  border-radius: 12px;
+  font-size: 24px;
+  background-color: lightgrey;
+  border: 2px solid black;
+}

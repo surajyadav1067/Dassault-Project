@@ -1,0 +1,13 @@
+reate table Dependents(
+DepnID int  auto_increment ,
+Relationship varchar(50) NOT NULL,
+DepnName varchar(50) NOT NULL,
+DepnEmail varchar(100) NOT NULL,
+DepnContact int NOT NULL,
+DepnBloodGrp varchar(5) NOT NULL,
+DepnDOB date NOT NULL ,
+DepnWeight float NOT NULL,
+DepnHeight float NOT NULL,
+RelatioWith INT  NOT NULL REFERENCES userinfo(id),
+Primary key(DepnID)
+)auto_increment = 1000;
