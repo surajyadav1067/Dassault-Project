@@ -1,0 +1,15 @@
+use dassault;
+CREATE TABLE UserInfo(
+UserID int NOT NULL AUTO_INCREMENT,
+UserName varchar(50) NOT NULL,
+UserEmail varchar(100) NOT NULL,
+UserContact int NOT NULL,
+UserCountry varchar(50) NOT NULL,
+UserDOB date NOT NULL,
+UserPassward varchar(50) NOT NULL,
+UserConfirmPass varchar(50)NOT NULL,
+UserBloodGrp varchar(5),
+UserWeight float,
+UserHeight float,
+primary key (UserID)
+);
